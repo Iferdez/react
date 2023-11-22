@@ -1,0 +1,15 @@
+.navigation {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.prodcutType {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prodcutType button {
+   margin-left: 1rem;
+}
