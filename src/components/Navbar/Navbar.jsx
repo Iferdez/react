@@ -1,5 +1,6 @@
 import classes from './Navbar.module.css'
 import CartWidget from '../CartWidget/CartWidget'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
         <nav className={classes.navigation}>
@@ -7,10 +8,10 @@ const Navbar = () => {
                 <h2>Tienda Simpsons</h2>
             </div>
             <section className={classes.prodcutType}>
-                <button className={classes.productButton}>Remeras</button>
-                <button className={classes.productButton}>Buzos</button>
-                <button className={classes.productButton}>Decoracion</button>
-                <button className={classes.productButton}>Accesorios</button>
+                <Link  to= '/category/remeras'className={classes.productButton}>Remeras</Link>
+                <Link  to= '/category/buzos'className={classes.productButton}>Buzos</Link>
+                <Link  to= '/category/decoracion'className={classes.productButton}>Decoracion</Link>
+                <Link  to= '/category/accesorios'className={classes.productButton}>Accesorios</Link>
                 <CartWidget/>
             </section>
             
