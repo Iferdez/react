@@ -1,8 +1,10 @@
-# React + Vite
+Ecommerce  ---> Tienda Simpsons
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Se debe instalar react, firebase y react-toastify para correr el proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+Componente Item: Lista los productos
+Componente ItemDetail: Permite visualizar el detalle de los productos como asi agregarlos al carrito
+Componente CartContext: Maneja los estados del carrito
+Los componentes Container manejan la carga de informacion
