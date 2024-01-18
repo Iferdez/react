@@ -5,7 +5,8 @@ const Navbar = () => {
     return (
         <nav className={classes.navigation}>
             <div className={classes.nombre}>
-                <h2>Tienda Simpsons</h2>
+            <Link to="/"><h2>Tienda Simpsons</h2>
+                </Link>
             </div>
             <section className={classes.prodcutType}>
                 <Link  to= '/category/remeras'className={classes.productButton}>Remeras</Link>
